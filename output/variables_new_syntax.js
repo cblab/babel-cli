@@ -6,8 +6,8 @@ function fire(bool) {
 
         console.log(_foo); // bar
     } else {
-            console.log(foo); //undefined
-        }
+        console.log(foo); //undefined
+    }
 }
 
 fire(false);

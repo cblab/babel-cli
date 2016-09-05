@@ -6,8 +6,8 @@ function fire(bool) {
         foo = 'bar';
         console.log(foo); // bar
     } else {
-            console.log(foo); //undefined -> hoisting (quite confusing, isn't it?)
-        }
+        console.log(foo); //undefined -> hoisting (quite confusing, isn't it?)
+    }
 }
 
 fire(false);
